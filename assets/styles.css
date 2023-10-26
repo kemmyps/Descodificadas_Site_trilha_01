@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*antes de ser clicado*/
+a{
+    color: white;
+    text-decoration: none;
+    border-width: 4px;
+    padding: 2px;
+}
+/*ao clicar*/
+a:active {
+    font-size: small;
+}
+a:visited {
+    color: #d2d2d2
+}
+/*HEADER*/
+/*todo: colocar a cor de todos os textos do header white*/
+header {
+
+}
+.header-body {
+    height: 500px;
+    background-size: cover;
+    background-image: url("image/background_banner.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+/*ao passar o mause em cima*/
+.menu a:hover {
+    background: rgba(61, 61, 61, 0.73);
+    padding: 5px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+header li {
+    margin: 20px 15px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+/*CAMPO DE BUSCA DO SITE*/
+#divBusca{
+    background-color: transparent;
+    width:150px;
+    text-decoration-color: white;
+
+}
+#divBusca img {
+    width: 25px;
+    margin-left: 5px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 15px;
+    width: 90px;
+    border:solid 1px;
+    border-radius:15px;
+    color: white;
+}
+
+.header-text p{
+    display: grid;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 35px;
+}
+
+#text-title {
+    font-size: 45px;
+    border-bottom: 5px solid #d300a9;
+
+
+}
+
